@@ -5,6 +5,7 @@ if(isNaN(input1) || isNaN(input2)){
 	alert("Invalid input. Please enter a valid number.");
 }else{
 	let ans = Number(input1)+Number(input2)
-	alert(ans);
+	let msg = `The sum of ${input1} and ${input2} is ${ans}.`
+	alert(msg);
 }
 // Write your code here and print the output using alert function
