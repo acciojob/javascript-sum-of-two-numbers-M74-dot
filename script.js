@@ -4,7 +4,7 @@ let input2 = prompt("Enter the second number:");
 if(isNaN(input1) || isNaN(input2)){
 	alert("Invalid input. Please enter a valid number.");
 }else{
-	let ans = Number(input1)+Number(input2)
+	let ans = parseFloat(input1)+parseFloat(input2)
 	let msg = `The sum of ${input1} and ${input2} is ${ans}.`
 	alert(msg);
 }
